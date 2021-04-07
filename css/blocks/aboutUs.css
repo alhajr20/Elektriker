@@ -1,0 +1,22 @@
+.aboutUs {
+    padding: 50px 0;
+    background-color: rgb(238, 238, 238);
+}
+
+.aboutUs .aboutUs__title {
+    text-align: center;
+}
+
+.aboutUs .aboutUs__wrapper {
+    margin-top: 50px;
+}
+
+.aboutUs .aboutUs__wrapper {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.aboutUs .aboutUs__wrapper .aboutUs__text p:last-child {
+    margin-top: 50px;
+}
