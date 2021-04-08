@@ -1,5 +1,6 @@
 .reviews {
     padding: 50px 0 150px 0;
+    z-index: -1;
 }
 
 .reviews__title {

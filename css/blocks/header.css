@@ -89,7 +89,6 @@
 
     .activeMenu {
         transform: translateY(500px);
-        z-index: 2;
     }
 
     .overlayActive {
@@ -100,7 +99,6 @@
         width: 100%;
         height: 100%;
         background-color: rgba(235, 235, 235, 0.37);
-        z-index: 1;
     }
 
     .header .menu_wrapper {
@@ -113,6 +111,8 @@
         padding: 20px;
         height: 50vh;
         transition: all .5s;
+        z-index: 5;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
 
     .header .menu_wrapper .header__nav {
