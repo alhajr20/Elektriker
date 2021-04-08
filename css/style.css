@@ -2,3 +2,15 @@
 @import './blocks/header.css';
 @import './blocks/promo.css';
 @import './blocks/aboutUs.css';
+@import './blocks/services.css';
+@import './blocks/ourContacts.css';
+@import './blocks/reviews.css';
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 20px 0;
+}

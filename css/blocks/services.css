@@ -1,0 +1,28 @@
+.services {
+    padding-bottom: 50px;
+}
+
+.services .services__title {
+    text-align: center;
+}
+
+.services .services__wrapper {
+    margin-top: 50px;
+}
+
+.services .services__wrapper .services__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services .services__wrapper .services__item img {
+    width: 25%;
+}
+
+.services .services__wrapper .services__item p {
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(116, 116, 116);
+    padding: 20px;
+}
